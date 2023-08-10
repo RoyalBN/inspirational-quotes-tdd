@@ -1,5 +1,11 @@
 import React from "react";
+import { Sidebar } from "../../components/ui/Sidebar";
 
 export const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <h1>Inspirational Quotes</h1>
+      <Sidebar />
+    </div>
+  );
 };
