@@ -1,15 +1,15 @@
 import { render, screen } from "@testing-library/react";
-import App from "./App";
+import { Home } from "../Home";
 
 describe("Home", () => {
   it("should renders correctly", () => {
-    render(<App />);
+    render(<Home />);
     const homeTitle = screen.getByText("Inspirational Quotes");
     expect(homeTitle).toBeInTheDocument();
   });
 
   it("should renders sidebar", () => {
-    render(<App />);
+    render(<Home />);
     const sidebar = screen.queryByRole("aside");
     expect(sidebar).toBeInTheDocument();
   });
