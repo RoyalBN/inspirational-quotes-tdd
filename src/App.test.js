@@ -13,4 +13,10 @@ describe("Home", () => {
     const sidebar = screen.queryByRole("aside");
     expect(sidebar).toBeInTheDocument();
   });
+
+  it("should display quotes blocs", () => {
+    render(<App />);
+    const quotesBlock = screen.queryByRole("generic");
+    expect(quotesBlock).toBeInTheDocument();
+  });
 });
