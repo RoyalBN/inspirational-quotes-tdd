@@ -1,9 +1,9 @@
 import React from "react";
-import { Sidebar } from "../../components/layout/Sidebar";
+import "./Home.css";
 
 export const Home = () => {
   return (
-    <div>
+    <div id="search-input">
       <input type="text" placeholder="Find your inspiration" />
     </div>
   );
