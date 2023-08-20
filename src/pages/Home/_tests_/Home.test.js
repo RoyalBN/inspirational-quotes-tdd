@@ -4,7 +4,7 @@ import { Home } from "../Home";
 describe("Home", () => {
   it("should renders correctly", () => {
     render(<Home />);
-    const homeTitle = screen.getByText("Inspirational Quotes");
+    const homeTitle = screen.getByPlaceholderText("Find your inspiration");
     expect(homeTitle).toBeInTheDocument();
   });
 

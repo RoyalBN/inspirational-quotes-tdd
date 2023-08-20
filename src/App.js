@@ -1,16 +1,19 @@
 import "./App.css";
+import { Header } from "./components/layout/Header";
 import { Sidebar } from "./components/layout/Sidebar";
-import { QuoteBlock } from "./components/ui/QuoteBlock";
 import { Home } from "./pages/Home/Home";
 
 function App() {
   return (
     <div className="App">
-      <div className="header"></div>
-      <Home />
-      <Sidebar />
-      <div className="quoteBlock">
-        <QuoteBlock />
+      <div className="header">
+        <Header />
+      </div>
+      <div className="content">
+        <Sidebar />
+        <div>
+          <Home />
+        </div>
       </div>
     </div>
   );

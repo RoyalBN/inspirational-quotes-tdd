@@ -4,7 +4,7 @@ import { Sidebar } from "../../components/layout/Sidebar";
 export const Home = () => {
   return (
     <div>
-      <h1>Inspirational Quotes</h1>
+      <input type="text" placeholder="Find your inspiration" />
     </div>
   );
 };

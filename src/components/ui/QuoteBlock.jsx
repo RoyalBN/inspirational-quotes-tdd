@@ -1,3 +1,7 @@
 export const QuoteBlock = () => {
-  return <div role="generic">QuoteBlock</div>;
+  return (
+    <div data-testid="quoteBlock" role="generic">
+      QuoteBlock
+    </div>
+  );
 };
