@@ -1,10 +1,10 @@
 import React from "react";
-import { Sidebar } from "../../components/ui/Sidebar";
+import "./Home.css";
 
 export const Home = () => {
   return (
-    <div>
-      <h1>Inspirational Quotes</h1>
+    <div className="search-input">
+      <input type="text" placeholder="Find your inspiration" />
     </div>
   );
 };
