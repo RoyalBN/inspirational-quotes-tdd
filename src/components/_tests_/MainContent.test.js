@@ -3,7 +3,7 @@ import "../layout/MainContent";
 import { MainContent } from "../layout/MainContent";
 
 describe("MainContent", () => {
-  it("should renders correctly", () => {
+  it("should renders Sidebar and MainContent correctly", () => {
     render(<MainContent />);
     const sidebarElement = screen.getByRole("heading", {
       name: "Home",

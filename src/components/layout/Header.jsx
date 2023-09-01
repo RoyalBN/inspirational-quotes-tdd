@@ -3,7 +3,7 @@ import "./Header.css";
 
 export const Header = () => {
   return (
-    <div id="header-title">
+    <div className="Header">
       <h1>Inspirational Quotes</h1>
     </div>
   );
